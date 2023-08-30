@@ -21,7 +21,9 @@ The Next.js App utilizes the following technologies:
 
 5. Readme and Requirements Files: The app includes a readme file that provides an overview of the project, installation instructions, and important considerations for developers. Additionally, a requirements file lists all the necessary dependencies and libraries required to run the application.
 
-6. Build and Deploy Scripts: The Next.js App provides build and deploy scripts to automate the app's deployment process. These scripts streamline the deployment workflow, ensuring consistency and ease of use.
+6. Conversational AI Agent: The Next.js App incorporates a conversational autonomous AI agent capable of generating entire full stack apps from a text description. The AI agent utilizes natural language processing (NLP) techniques, machine learning algorithms, and code generation tools to create the app's codebase.
+
+7. Build and Deploy Scripts: The Next.js App provides build and deploy scripts to automate the app's deployment process. These scripts streamline the deployment workflow, ensuring consistency and ease of use.
 
 ## Sweep Feature
 

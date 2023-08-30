@@ -1,4 +1,5 @@
 import React from 'react';
+import ConversationalAgent from '../ConversationalAgent'; // Import the ConversationalAgent component from the ConversationalAgent.js file
 
 // Import necessary dependencies or modules for the "sweep" feature
 import { useState } from 'react';
@@ -19,6 +20,12 @@ const ChatInterface = () => {
     <button onClick={handleSweepClick}>Sweep</button>
     <p>{sweepResults}</p>
   </div>
+
+  // Add UI element or functionality related to the conversational AI agent
+  <ConversationalAgent />
+
+  // Add UI element or functionality related to the conversational AI agent
+  <ConversationalAgent />
 
   return (
     // Existing code for the ChatInterface component

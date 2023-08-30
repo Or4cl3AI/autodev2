@@ -1,13 +1,14 @@
-import sweep from './sweep';
+import ConversationalAgent from './ConversationalAgent';
 
 // Rest of the existing code in the "App.js" file
 
 class App extends React.Component {
   // Rest of the existing code in the "App.js" file
 
-  // Addition 2: Add the necessary code to integrate the "sweep" feature
+  // Addition 2: Add the necessary code to integrate the conversational AI agent
   componentDidMount() {
-    sweep();
+    const agent = new ConversationalAgent();
+    agent.initialize();
   }
 
   render() {

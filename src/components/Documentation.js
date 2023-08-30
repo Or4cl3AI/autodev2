@@ -6,25 +6,19 @@ const Documentation = () => {
       <h2>Documentation</h2>
       <p>...</p>
       
-      <h3>Sweep Feature</h3>
+      <h3>Conversational AI Agent</h3>
       <p>
-        The sweep feature allows users to perform a sweeping action on the app. To use the sweep feature, follow these steps:
+        The conversational AI agent is a powerful tool that allows users to generate entire full stack apps from a text description and edit them from the same chat interface. It leverages advanced natural language processing and machine learning techniques to understand user requirements and generate code accordingly.
+      </p>
+      <p>
+        To use the conversational AI agent, follow these steps:
       </p>
       <ol>
-        <li>Step 1: ...</li>
-        <li>Step 2: ...</li>
-        <li>Step 3: ...</li>
+        <li>Step 1: Enter a text description of the desired app in the chat interface.</li>
+        <li>Step 2: The conversational AI agent will analyze the description and generate the corresponding full stack app code.</li>
+        <li>Step 3: Review the generated code in the chat interface and make any necessary edits or modifications.</li>
+        <li>Step 4: Once satisfied with the code, save or export it for further use.</li>
       </ol>
-      
-      <h4>Example:</h4>
-      <pre>
-        <code>
-          {`// Code example for using the sweep feature
-          const sweep = () => {
-            // Implementation of the sweep feature
-          }`}
-        </code>
-      </pre>
     </div>
   );
 };
